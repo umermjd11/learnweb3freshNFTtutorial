@@ -13,9 +13,20 @@ npx hardhat node
 node scripts/sample-script.js
 npx hardhat help
 ```
+
+to execute the script
+'''
+npm init --yes
+npm install --save-dev hardhat @nomicfoundation/hardhat-toolbox
+
+npm install --save-dev @openzeppelin/contracts
+npx hardhat compile
+npm install dotenv
+npx hardhat run scripts/deploy.js --network sepolia
+'''
 # contract address
 
-0x5Ad97353B9fAdA901bf5A3937818537ab8eb1318
+0xee9eB382f5e0E1baee560C68D0DC9903016214DD
 
 # deployer address
-0xcf2Dfd2fEAD10a9AD15d552A15997Fd66655d46E
+0x1b7BD17E7A19C96915454132401BDDCc6aB3C640
